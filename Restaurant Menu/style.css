@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(255, 252, 204);
+}
+u{
+    color: rgba(11, 145, 190);
+    text-decoration-style:dotted;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+span{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(97, 0, 136);
+    background-color: rgb(255, 251, 14);
+    border: 1.7px solid black;
+    border-radius: 18px;
+}
+img{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+table{
+    font-size: 36px;
+}
+th{
+    color: rgb(13, 93, 9);
+}
+td{
+    color: rgb(136, 0, 0);
+}
+video{
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color: rgb(246, 255, 0);
+}
+div{
+    background-color: rgb(253, 228, 255);
+    font-size: x-large;
+}
