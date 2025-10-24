@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    
+    <!-- Using <center> for centering, as per basic HTML practice -->
+    <center>
+        <h1><b>Student Registration Form</b></h1>
+        
+        <form>
+            
+            <!-- Full Name -->
+            Full Name: <input type="text" id="fullName" name="fullName" placeholder="Enter your full name"><br><br>
+
+            <!-- Email -->
+            Email: <input type="email" id="email" name="email" placeholder="Enter valid email address"><br><br>
+
+            <!-- Password -->
+            Password: <input type="password" id="password" name="password" placeholder="Enter password"><br><br>
+
+            <!-- Gender -->
+            Gender: 
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female
+            <input type="radio" id="other" name="gender" value="other"> Other
+            <br><br>
+            
+            <!-- Course Selection -->
+            Course: 
+            <select id="course" name="course">
+                <option value="">-- Select Course --</option>
+                <option value="cs">Computer Science</option>
+                <option value="ec">Electronics & Communication</option>
+                <option value="me">Mechanical Engineering</option>
+            </select><br><br>
+            
+            <!-- Contact Number -->
+            Contact No: <input type="tel" id="contactNo" name="contactNo" placeholder="Enter phone number"><br><br>
+
+            <!-- Address -->
+            Address:<br>
+            <textarea id="address" name="address" rows="5" cols="40" placeholder="Enter your address"></textarea>
+            
+            <br><br>
+            
+            <!-- Buttons -->
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+            
+        </form>
+        
+        <hr>
+        <!-- Footer text centered -->
+        <p>&copy; 2025 Student Registration Portal</p>
+        
+    </center>
+
+</body>
+</html>
